@@ -37,7 +37,7 @@ const Aboutus = () => {
                         <div className="content flex flex-wrap px-1 justify-around py-2">
                             {data.map(item => {
                                 return (
-                                    <div className='flex gap-2 items-center'>
+                                    <div key={item.number} className='flex gap-2 items-center'>
                                         <h2 className='number text-3xl lg:text-5xl font-medium '>{item.number}</h2>
                                         <span className='capitalize text-xs font-medium'>{item.text}</span>
                                     </div>
@@ -49,16 +49,7 @@ const Aboutus = () => {
                                 <h2 className='number text-4xl md:text-6xl font-medium '>32</h2>
                                 <span className='capitalize text-xs font-medium'>year <br /> of experience</span>
                             </div>
-
-                            <div className='flex gap-2 items-center'>
-                                <h2 className='number text-4xl md:text-6xl font-medium '>32</h2>
-                                <span className='capitalize text-xs font-medium'>year <br /> of experience</span>
-                            </div>
-
-                            <div className='flex gap-2 items-center'>
-                                <h2 className='number text-4xl md:text-6xl font-medium '>32</h2>
-                                <span className='capitalize text-xs font-medium'>year <br /> of experience</span>
-                            </div> */}
+                             */}
 
                         </div>
 
@@ -66,7 +57,7 @@ const Aboutus = () => {
                     </div>
 
                     <div className="right md:col-span-2 lg:col-span-1">
-                        <Image src={'/assets/banner3.2_slider.jpg'} width={700} height={700} className='rounded-lg w-full mt-4 lg:mt-0 h-full' />
+                        <Image src={'/assets/banner3.2_slider.jpg'} width={700} height={700} className='rounded-lg w-full mt-4 lg:mt-0 h-full ' />
                     </div>
 
 

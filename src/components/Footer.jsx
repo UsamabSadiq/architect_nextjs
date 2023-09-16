@@ -4,8 +4,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-3">
-                <div className="left sm:w-fit lg:min-w-[25rem] ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-5 border-t border-slate-300">
+                <div className="left sm:w-fit lg:min-w-[25rem] mt-4 ">
                     <h2 className='uppercase text-center md:text-left text-3xl font-bold mb-5'>let talk about <br /> your project</h2>
                     <div className="only-for-sm-devices  md:flex sm:flex-col justify-between ">
                         <div className="email md:mt-16 border-2 rounded-lg py-2 pl-2">
@@ -50,7 +50,7 @@ const Footer = () => {
 
                     </div>
 
-                    <p className='text-base text-slate-400 '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatibus, provident repudiandae, reiciendis laudantium quasi adipisci dolorum quod voluptates corporis fugit? Libero eligendi nesciunt obcaecati. Assumenda ex cupiditate quas itaque?</p>
+                    <p className='text-base text-slate-400 mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate voluptatibus, provident repudiandae, reiciendis laudantium quasi adipisci dolorum quod voluptates corporis fugit? Libero eligendi nesciunt obcaecati. Assumenda ex cupiditate quas itaque?</p>
 
                 </div>
 

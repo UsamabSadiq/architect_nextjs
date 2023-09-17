@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-3 mt-5 border-t border-slate-300">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-3 my-5 border-t border-slate-300">
                 <div className="left sm:w-fit lg:min-w-[25rem] mt-4 font-orbitron ">
                     <h2 className='uppercase text-center md:text-left text-3xl md:text-4xl font-bold mb-5' data-aos="flip-up">let talk about <br /> your project</h2>
                     <div className="only-for-sm-devices  md:flex sm:flex-col justify-between ">
@@ -41,7 +41,7 @@ const Footer = () => {
 
             {/* Bottom starts  */}
 
-            <div className="main border-2 rounded-xl mt-5 min-h-44 " data-aos="zoom-down">
+            <div className="main border-2 rounded-xl mt-5 mb-3 min-h-44 " data-aos="zoom-down">
                 {/* upperBottom starts  */}
 
                 <div className="content grid grid-cols-1 md:grid-cols-2 px-3 pt-2">

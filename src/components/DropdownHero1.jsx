@@ -9,9 +9,9 @@ const DropdownHero1 = ({ heading, content }) => {
     return (
         <>
 
-            <div className="main mb-2">
+            <div className="main mb-2" data-aos="fade-left">
                 <div className="child-1 flex justify-between border-2 py-2 px-1">{/*  flex */}
-                    <h3 className='capitalize text-base font-medium  '>{heading}</h3>
+                    <h3 className='capitalize text-base font-medium font-orbitron '>{heading}</h3>
                     <div className='cursor-pointer'>
 
                         {!show ? <FaCircleChevronDown size={20} onClick={() => setShow(true)} /> : <FaCircleChevronUp size={20} onClick={() => setShow(false)} />}
@@ -19,7 +19,7 @@ const DropdownHero1 = ({ heading, content }) => {
 
                 </div>
                 {show &&
-                    <p className={`text-base bg-slate-300 font-medium px-2 py-1`}>{content}</p>}
+                    <p className={`text-base text-slate-500 bg-slate-100 font-medium px-2 py-1 font-roboto`}>{content}</p>}
             </div>
 
         </>

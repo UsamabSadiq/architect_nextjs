@@ -33,12 +33,12 @@ const Hero1 = () => {
     return (
         <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-3">
-                <div className="left flex flex-col justify-between w-[80%] py-2"> {/*  flex */}
-                    <p className='capitalize text-3xl md:text-4xl lg:text-6xl font-bold'>modern life lives here</p>
-                    <p className='font-medium text-sm border rounded-md p-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus numquam cumque, ducimus ea quasi illum recusandae officiis maxime nihil.</p>
+                <div className="left flex flex-col justify-center lg:justify-between gap-y-5 w-[80%] py-2" data-aos="fade-right"> {/*  flex */}
+                    <p className='capitalize text-3xl md:text-4xl lg:text-6xl font-bold font-orbitron'>modern life lives here</p>
+                    <p className='font-medium text-sm text-slate-500 border-2 rounded-md px-1 py-2 font-roboto '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae necessitatibus numquam cumque, ducimus ea quasi illum recusandae officiis maxime nihil.</p>
                 </div>
-                <div className="middle">
-                    <Image src={'/assets/Capture2.png'} width={800} height={800} />
+                <div className="middle" data-aos="flip-right">
+                    <Image src={'/assets/Capture2.png'} alt='banner_center' width={800} height={800} />
                 </div>
                 <div className="right py-2 md:col-span-2 lg:col-span-1">
                     {dropdownObj.map(item => {

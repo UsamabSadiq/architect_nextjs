@@ -34,7 +34,7 @@ const FeatureProject = () => {
         <>
             <div className="main my-7 border-t-2">
                 <div className="content flex flex-col lg:flex-row mt-4 gap-x-5">  {/* flex */}
-                    <div className="left bg-slate-50 lg:w-[30%]" data-aos="fade-right">
+                    <div className="left bg-slate-50 lg:w-[30%]">
                         <div className="left-content p-2 h-full flex flex-col gap-y-4  lg:justify-evenly justify-start"> {/* flex  */}
                             <h2 className='text-3xl md:text-5xl font-bold capitalize font-orbitron '>innovating spaces, <br /> inspiring <br /> lives</h2>
                             <div className="image px-2 ">
@@ -50,13 +50,13 @@ const FeatureProject = () => {
                     </div>
 
                     <div className="right w-full border-l-2 border-slate-300">
-                        <h1 className='capitalize text-3xl md:text-5xl text-center font-bold my-6 font-orbitron' data-aos="flip-down">feature project</h1>
+                        <h1 className='capitalize text-3xl md:text-5xl text-center font-bold my-6 font-orbitron'>feature project</h1>
                         <div className=' w-[80%] mx-auto'>
                             <div className="btn flex flex-col lg:flex-row gap-y-3 justify-around my-2 ">
                                 {
                                     btnData.map((item, ind) => {
                                         return (
-                                            <button key={ind} className='rounded-lg border font-orbitron border-black py-2 px-7 hover:bg-black hover:text-white duration-200 font-semibold capitalize' data-aos="fade-right">{item}</button>
+                                            <button key={ind} className='rounded-lg border font-orbitron border-black py-2 px-7 hover:bg-black hover:text-white duration-200 font-semibold capitalize'>{item}</button>
                                         )
                                     })
                                 }
@@ -67,8 +67,8 @@ const FeatureProject = () => {
                                 {imgData.map(item => {
                                     return (
                                         <div key={item.cityName} className=" md:px-2 ">
-                                            <Image src={item.imgSrc} alt={item.year} width={480} height={480} className='rounded-lg h-72 lg:h-96 ' data-aos="flip-left" />
-                                            <div className="text border font-orbitron rounded-lg px-2 py-1 my-2" data-aos="zoom-in">
+                                            <Image src={item.imgSrc} alt={item.year} width={480} height={480} className='rounded-lg h-72 lg:h-96 ' />
+                                            <div className="text border font-orbitron rounded-lg px-2 py-1 my-2">
                                                 <div className="row-1 flex justify-between items-center">
                                                     <p className='font-medium'>{item.projectName}</p>
                                                     <p className='font-light'>{item.year}</p>

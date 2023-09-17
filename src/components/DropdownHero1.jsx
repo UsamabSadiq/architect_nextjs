@@ -9,7 +9,7 @@ const DropdownHero1 = ({ heading, content }) => {
     return (
         <>
 
-            <div className="main mb-2" data-aos="fade-left">
+            <div className="main mb-2">
                 <div className="child-1 flex justify-between border-2 py-2 px-1">{/*  flex */}
                     <h3 className='capitalize text-base font-medium font-orbitron '>{heading}</h3>
                     <div className='cursor-pointer'>

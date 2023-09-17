@@ -26,7 +26,7 @@ const Aboutus = () => {
 
                 {/* columns start */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-6 gap-x-3">
-                    <div className='left' data-aos="zoom-out">
+                    <div className='left'>
                         <h3 className='text-5xl font-semibold capitalize font-orbitron '>About Us</h3>
                         <button className='bg-black text-white rounded-lg py-2 my-4 px-7 font-semibold capitalize font-orbitron'>learn more</button>
                         <Image src={'/assets/about_right.webp'} alt='artist_img' width={400} height={400} className='rounded-lg md:w-[80%] w-full h-[20rem] mt-4' />
@@ -39,7 +39,7 @@ const Aboutus = () => {
                                 return (
                                     <div key={item.number} className='flex gap-2 items-center '>
                                         <h2 className='number text-3xl lg:text-5xl font-medium font-orbitron '>{item.number}</h2>
-                                        <span className='capitalize text-xs font-medium font-roboto' data-aos="fade-up">{item.text}</span>
+                                        <span className='capitalize text-xs font-medium font-roboto' >{item.text}</span>
                                     </div>
                                 )
                             })}
@@ -47,11 +47,11 @@ const Aboutus = () => {
 
                         </div>
 
-                        <p className='text-sm font-medium border-2 rounded-lg text-slate-500 px-2 py-1 mt-2 font-roboto' data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis cupiditate omnis, architecto ipsa, quia eveniet debitis minima doloremque cum minus, fugiat sed animi aut obcaecati consequatur! Vero, iusto. Dolorum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quibusdam, consequatur dolorum labore temporibus magnam ut et asperiores ipsam nihil!</p>
+                        <p className='text-sm font-medium border-2 rounded-lg text-slate-500 px-2 py-1 mt-2 font-roboto'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi blanditiis cupiditate omnis, architecto ipsa, quia eveniet debitis minima doloremque cum minus, fugiat sed animi aut obcaecati consequatur! Vero, iusto. Dolorum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quibusdam, consequatur dolorum labore temporibus magnam ut et asperiores ipsam nihil!</p>
                     </div>
 
-                    <div className="right md:col-span-2 lg:col-span-1" data-aos="zoom-out">
-                        <Image src={'/assets/banner3.2_slider.jpg'} alt='house-aboutSec' width={700} height={700} className='rounded-lg w-full mt-4 lg:mt-0 h-full ' />
+                    <div className="right md:col-span-2 lg:col-span-1">
+                        <Image src={'/assets/banner3.2_slider.jpg'} alt='house-aboutSec' width={600} height={600} className='rounded-lg mt-4 lg:mt-0 mx-auto' />
                     </div>
 
 

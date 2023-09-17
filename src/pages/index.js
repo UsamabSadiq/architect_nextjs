@@ -7,10 +7,13 @@ import Hero1 from "@/components/Hero1.1";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Hero1 />
-      <Aboutus />
-      <FeatureProject />
+      <div className="w-full">
+        <Hero />
+        <Hero1 />
+        <Aboutus />
+        <FeatureProject />
+      </div>
+
     </>
   )
 }

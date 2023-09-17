@@ -37,7 +37,7 @@ const Hero = () => {
                     </div>
                     <div className="right w-full flex flex-col items-center gap-6 pt-2 pb-4 " data-aos="fade-left">
                         <h2 className='text-[2.40rem] capitalize text-center font-bold my-4 font-orbitron'>architectural <br /> acoustics solutions</h2>
-                        <button className='bg-black text-white rounded-lg py-2 my-4 px-10 font-semibold capitalize hover:bg-white hover:text-black hover:border hover:border-black font-orbitron'>let's go</button>
+                        <button className='bg-black text-white rounded-lg py-2 my-4 px-10 font-semibold capitalize hover:bg-white hover:text-black hover:border hover:border-black font-orbitron'>lets go</button>
                         <Image src={'/assets/banner3.1_slider.avif'} alt='banner_1' width={800} height={800} className='rounded-lg' />
                     </div>
                 </div>
